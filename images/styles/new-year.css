@@ -1,47 +1,277 @@
-*{
+* {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+
 /* Cover Screen style */
-.header{
+
+.header {
     width: 1600px;
     height: 808px;
     background-image: url('../banner/banner1.png');
-    
+
+
 }
-.cover-style{
+
+.cover-style {
     text-align: right;
     padding-left: 845px;
     padding-right: 230px;
     padding-top: 216px;
-    padding-bottom: 174px;
+    padding-bottom: 130px;
 }
-.cover-titel{
+
+.cover-titel {
     width: 525px;
     height: 230px;
-     font-size: 65px;
+    font-size: 65px;
     line-height: 76px;
     font-weight: 700px;
     text-align: right;
-    }
-.titel-p{
+}
+
+.titel-p {
     width: 495px;
     height: 70px;
     font-weight: 400;
     line-height: 26px;
     color: #444343;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 5px;
+    padding-bottom: 20px;
 }
-.button-style{
-    padding:14px 26px ;
+
+.button-style {
     width: 160px;
     height: 64px;
-    color:  white;
+    color: white;
     background: orangered;
     border-radius: 5px;
     font-weight: 600;
     font-size: 20px;
-    line-height: 23px
+    line-height: 23px;
+    border: none;
 
+
+}
+
+/* secound steps banner style */
+.banner{
+    padding-left:200px ;
+    padding-top: 10px;
+}
+.banner1 {
+    
+    background-image: url('../person.png');
+    background-position: left, center;
+    padding-bottom: 130px;
+    padding-left: 170px;
+    padding-right: 340px;
+    width: 569px;
+    height: 723px;
+    background-repeat: no-repeat;
+}
+
+.banner-style {
+    width: 416px;
+    height: 400px;
+    padding-left: 450px;
+    padding-right: 380px;
+    padding-top: 320px;
+    /* padding-bottom: 300px; */
+
+}
+
+.banner-titel {
+    width: 288px;
+    height: 94px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+
+
+}
+
+.banner-p {
+    width: 416px;
+    height: 104px;
+    color: #444343;
+    padding-top: 24px;
+    padding-bottom: 17px;
+    font-weight: 400;
+font-size: 16px;
+}
+
+.nav ul {
+    width: 349px;
+    height: 162px;
+    list-style: none;
+    padding-right: 427px;
+    padding-left: 49px;
+}
+
+/* 3rd steps skills section */
+.my-plan {
+    text-align: center;
+
+}
+
+.section-titel {
+    font-weight: 700;
+    font-size: 40px;
+    width: 179px;
+    height: 47px;
+    padding-left: 690px;
+    padding-right: 656px;
+    padding-top: 110px;
+    padding-bottom: 50px;
+
+}
+.skill{
+    width: 447px;
+height: 198px;
+
+}
+.skills-container {
+    display: flex;
+    text-align: center;
+    width: 1141px;
+    height: 202px;
+    padding-left: 200px;
+
+}
+
+.skills-container .slill {
+    padding: 50px;
+}
+
+.my-plan .skill-title {
+    width: 270px;
+height: 35px;
+font-weight: 700;
+font-size: 30px;
+line-height: 35px;
+color: #151414;
+
+}
+.skill-description {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 29px;
+}
+
+/* 4th banner */
+.possition-style {
+    padding-left: 160px;
+ 
+    padding-bottom: 140px;
+}
+
+.possition {
+    width: 1140px;
+    height: 300px;
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('../watch.png');
+    background-size: cover;
+    padding-left: 65px;
+    padding-top: 60px;
+}
+
+.para {
+    height: 94px;
+    width: 459px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 47px;
+    padding-bottom: 25px;
+}
+
+.button-style2 {
+    width: 160px;
+    height: 64px;
+    color: #F15B22;
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    border: none;
+}
+
+/* last style */
+.last-style {
+    width: 1600px;
+    height: 577px;
+    display: flex;
+    background-color: black;
+}
+
+.side1 {
+    padding-left: 200px; 
+      padding-top: 130px;
+}
+
+
+
+.side2 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    width: 148px;
+    height: 53px;
+    color: white;
+}
+
+.side3 {
+    width: 485px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: white; padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.side4 {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: white; 
+    padding-bottom:16px ;
+}
+
+.side5 {
+    width: 186px;
+    height: 26px;
+    color: white; 
+    padding-bottom: 30px;
+
+}
+
+.last-icon-img ul {
+    width: 175px;
+    height: 46px;
+    display: flex;
+    list-style: none;
+    padding-left: 1px;
+    gap: 10px;
+}
+
+.form {
+   padding-left:400px ;
+   padding-top:140px ; 
+}
+.input1{
+    color: white;
+    width: 123px;
+height: 29px;
+}
+.input2{
+    width: 325px;
+    height: 65px;
+    left: 1046px; 
+    padding-top: 5px; 
+    padding-bottom: 1px;
 }
